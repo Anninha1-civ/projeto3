@@ -1,0 +1,144 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+.hero {
+    background-image: url('img/fundo.jpg'); /* Adicione uma imagem de fundo */
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    background-size: cover;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.produtos {
+    padding: 40px;
+    text-align: center;
+}
+
+.produto {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rodape {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.rodape__lista {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.rodape__lista li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.rodape__lista a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.rodape__lista a:hover {
+    color: #ffdd57;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #000; /* Altera a cor do texto para preto */
+}
+
+.hero p {
+    font-size: 18px;
+    color: #000; /* Altera a cor do texto para preto */
+}
+
+.hero {
+    background-image: url('img/fundo.jpg'); /* Adicione uma imagem de fundo */
+    color: #fff; /* Remova esta linha ou ajuste para branco, se desejar */
+    text-align: center;
+    padding: 80px 20px;
+    background-size: cover;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #000; /* Cor preta */
+}
+
+.hero p {
+    font-size: 18px;
+    color: #000; /* Cor preta */
+}
+
+
+
